@@ -13,7 +13,7 @@ signupForm.addEventListener('submit', function (e) {
   // Prompt before starting login process
   var confirmSignup = confirm("Are you sure you're not an existing user?");
   // Example success message//
-  alert('Sign-up successful!');
+  alert('Sign-up successful!'.toLocaleUpperCase());
 
   // Clear form fields
   signupForm.reset()
