@@ -75,7 +75,7 @@ body {
   }
   
   /* Phone Styles */
-  @media (max-width: 480px) {
+  @media (max-width:250px) {
     .container {
       width: 90%;
     }
