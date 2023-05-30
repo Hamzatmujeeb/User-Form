@@ -3,7 +3,7 @@ signupForm.addEventListener('submit', function (e) {
   e.preventDefault();
   var name = document.getElementById('name').value;
   var address = document.getElementById('address').value;
-  var dbirth = document.getElementById('dbirth').value;
+  var Pnumber = document.getElementById('Pnumber').value;
   var email = document.getElementById('signup-email').value;
   var password = document.getElementById('signup-password').value;
 
