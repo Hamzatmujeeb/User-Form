@@ -33,11 +33,11 @@ loginForm.addEventListener('submit', function (e) {
     // Perform login functionality here, such as making an API request or validating the user credentials
 
     // Example success message//
-    console.log('Login successful!');
+    alert('Login successful!'.toLocaleUpperCase());
 
     // Clear form fields
     loginForm.reset();
   } else {
-    console.log('Login canceled.');
+    alert('Enter correct deatails'.toUpperCase());
   }
 });
